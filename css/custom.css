@@ -1,0 +1,341 @@
+/* -------------- General layout for web and mobile  --------------*/
+
+html, body {height: 100%;}
+
+body {
+  display: table;
+  width: 100%;
+}
+
+.page-row {
+  display: table-row;
+  height: 1px;
+}
+
+.page-row-expanded { 
+	height: 100%;
+}
+
+main {
+	min-height: 90vh;
+	min-height: 100%;
+	height: 100%;
+	float: left;
+	width:100%;
+	
+	margin-bottom: 1.5em;
+}
+
+
+nav {
+
+}
+
+/* -------------- Main content layout for web and mobile  --------------*/
+
+section {
+	/*max-height: 70vh;	*/
+	color: #888;
+	overflow:auto;
+}
+
+figure {
+	width: auto;
+	/*max-height: 500px;*/
+	padding-top: 20px 40px 40px 40px;
+}
+
+figure img {
+	display: block;
+    height:70%;
+    width: auto;
+}
+
+summary {
+	margin: 1.5em 0;
+	font-size: 1em;
+	line-height: 1.6em;
+}
+
+/* -------------- Quantity and price layout for web and mobile  --------------*/
+
+.wrapper-quantity-price {
+	display: block;
+	margin: 1.5em 0;
+	border-top: solid 1px #eee;
+	border-bottom: solid 1px #eee;
+	padding: 1.5em 0;
+	
+}
+
+/* Dynamic Quantity and Price Area */
+
+.label-for-action {
+	font-size: 0.9em;
+}
+
+.wrapper-quantity-price .wrap-price-payable .price-payable {
+	font-size: 1.4em;
+}
+
+#change-quantity{
+	text-align: center;
+}
+
+.item-price{
+	font-size: 1.2em;
+	font-weight: 400;
+}
+
+.input-group-btn{
+	font-weight: bold;
+}
+
+.input-group-btn > .btn:hover,
+.input-group-btn > .btn:focus,
+.input-group-btn > .btn:active,
+.btn-default:active:hover,
+.btn-default.active:hover, 
+.open > .dropdown-toggle.btn-default:hover, 
+.btn-default:active:focus, 
+.btn-default.active:focus, 
+.open > .dropdown-toggle.btn-default:focus, 
+.btn-default:active.focus, 
+.btn-default.active.focus, 
+.open > .dropdown-toggle.btn-default.focus{
+	color: #fff;
+	background-color: #ef4454 ;
+}
+
+/* -------------- Shipping layout for web and mobile  --------------*/
+
+.shipping-info {
+	font-size: 0.8em;
+	margin:  10px;
+	display: block;
+	padding: 0 0 1.5em 0;
+	border-bottom: solid 1px #eee;
+}
+
+/* -------------- Social Share and checkout layout for web and mobile  --------------*/
+
+.call-to-action {
+	display: block;
+	/*margin: 1.5em 0;*/
+}
+
+.social-share-wrapper {
+	text-align: left;
+	margin: 1.5em 0;
+}
+
+.social-share-wrapper a{
+	width: 25px;
+	height: 25px;
+	text-indent: -99999px;
+  	background-size: 25px auto;
+  	
+  	display: inline-block;
+    margin-bottom: 0;
+    font-weight: normal;
+    text-align: center;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    white-space: nowrap;
+    line-height: 1.42857143;
+    border-radius: 20px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    padding: 0 15px;
+}
+
+.social-share-wrapper a:last-child{
+	padding-left: 0;
+}
+
+.social-share-facebook {
+	background: url(../assets/icon_share-facebook.png) top left no-repeat;
+}
+
+.social-share-twitter {
+	background:url(../assets/icon_share-twitter.png) top left no-repeat;
+}
+
+.social-share-google-plus {
+	background: url(../assets/icon_share-google.png) top left no-repeat;
+}
+
+.social-share-email {
+	background: url(../assets/icon_share-email.png) top left no-repeat;
+}
+
+
+.social-share-facebook:hover,
+.social-share-twitter:hover, 
+.social-share-google-plus:hover, 
+.social-share-email:hover,
+.social-share-facebook:focus,
+.social-share-twitter:focus, 
+.social-share-google-plus:focus, 
+.social-share-email:focus,
+.social-share-facebook:active,
+.social-share-twitter:active, 
+.social-share-google-plus:active, 
+.social-share-email:active {
+	-webkit-transition: all 0.2s linear;
+       -moz-transition: all 0.2s linear;
+        -ms-transition: all 0.2s linear;
+         -o-transition: all 0.2s linear;
+            transition: all 0.2s linear;
+             opacity: 0.7;
+}
+
+.checkout {
+	text-align: right;
+	margin: 1.5em 0;
+}
+
+.btn-primary  {
+	color: #fff;
+	border-radius: 40px;
+	background: #ef4454;
+	box-shadow: 0px 3px 4px rgba(0,0,0,0.2);
+    padding:  10px 30px 12px;
+    font-size: 0.9em;
+    line-height: 1.3333333;
+    letter-spacing: 2px;
+    box-shadow: 0px 3px 4px rgba(0,0,0,0.2);
+    width: auto;
+}
+
+.cart-icon{
+	position: relative;
+    top: 3px;
+    display: inline-block;
+    background: url(../assets/icon_checkout.png) no-repeat top left;
+	background-size: 18px auto;
+	width: 18px;
+	height: 18px;
+	margin-right: 8px;
+}
+
+.btn-primary:hover {	
+	-webkit-transition: all 0.2s linear;
+       -moz-transition: all 0.2s linear;
+        -ms-transition: all 0.2s linear;
+         -o-transition: all 0.2s linear;
+            transition: all 0.2s linear;
+             opacity: 0.7;
+}
+
+/* -------------- Footer layout for web and mobile  --------------*/
+
+
+footer {
+position: relative;
+	/*margin-top: -180px;*/
+
+	/*width:100%;
+	min-height: 8vh;
+	height: 100%;*/
+	font-size: 0.7em;
+	color: #999;
+	/*margin-top: 2vh;*/
+	/*position: relative;
+	bottom: 0;
+	background: #fff;*/
+}
+.footer {
+	padding: 10px 0; 
+	border-top: solid 1px #ccc;
+}
+
+footer a {
+	color: #666;
+	text-transform: uppercase;
+	display: inline;
+	padding: 0 1em;
+}
+
+footer a:last-child {
+	padding-right: 0;
+}
+
+footer a:hover, footer a:focus, footer a:active {
+	color: #ef4454;
+}
+
+/* -------------- General typography for web and mobile  --------------*/
+
+h1,h2,h3,h4,h5 {
+	color: #444;
+}
+
+
+/* -------------- General links for web and mobile  --------------*/
+
+/* -------------- Small devices (tablets, 768px and up)  --------------*/
+@media (max-width: 992px)  {
+
+	h3{
+		font-size:1.2em;
+	}
+	
+	.btn-primary{
+		width: 100%;
+	}
+	
+	.social-share-wrapper {
+		text-align: center;
+		margin: 0;
+	}
+	
+	.social-share-wrapper a{
+		width: 45px;
+		height: 45px;
+	  	background-size: 45px auto;
+  	}
+
+	.checkout{
+		text-align: center;
+		/*margin-top: 40px;*/
+	}
+	
+	footer {
+		padding: 0 20px;
+	}
+	footer .footer .footer-copyright {
+		text-align: center;
+	}
+
+	footer .footer .footer-links {
+		text-align: center;
+		padding: 0 20px;
+	}
+
+}
+
+
+/* -------------- Medium devices (desktops, 992px and up)  -------------- */
+@media (min-width: 992px) { 
+
+	footer .footer .row .footer-copyright {
+		text-align: left;
+	}
+
+	footer .footer .row .footer-links {
+		text-align: right;
+	}
+
+}
+
+/*  -------------- Large devices (large desktops, 1200px and up)  -------------- */
+@media (min-width: 1200px)  { 
+	.container {
+	    width: 970px;
+	}
+}
