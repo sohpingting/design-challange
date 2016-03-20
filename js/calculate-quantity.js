@@ -82,3 +82,12 @@ $(document).ready(function() {
 		};
 	};
 });
+
+
+$("#add-quantity").mouseup(function(){
+    $(this).blur();
+})
+
+$("#minus-quantity").mouseup(function(){
+    $(this).blur();
+})

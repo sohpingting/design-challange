@@ -105,6 +105,11 @@ summary {
 .open > .dropdown-toggle.btn-default.focus{
 	color: #fff;
 	background-color: #ef4454 ;
+	-webkit-transition: all 0.2s linear;
+	-moz-transition: all 0.2s linear;
+	-ms-transition: all 0.2s linear;
+	-o-transition: all 0.2s linear;
+	transition: all 0.2s linear;
 }
 
 /* -------------- Shipping layout for web and mobile  --------------*/
@@ -187,11 +192,11 @@ summary {
 .social-share-google-plus:active, 
 .social-share-email:active {
 	-webkit-transition: all 0.2s linear;
-       -moz-transition: all 0.2s linear;
-        -ms-transition: all 0.2s linear;
-         -o-transition: all 0.2s linear;
-            transition: all 0.2s linear;
-             opacity: 0.7;
+	-moz-transition: all 0.2s linear;
+	-ms-transition: all 0.2s linear;
+	-o-transition: all 0.2s linear;
+	transition: all 0.2s linear;
+	opacity: 0.7;
 }
 
 .checkout {
